@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipes</title>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'recipes', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Recipes</a>
+    </div>
+    
+    <div class="collapse navbar-collapse id="myNavbar">
+      <ul class="nav navbar-nav mr-auto">
+          <li class="active">
+           <%# <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li> %>
+          <li class="active"><%= link_to "Home", chilliconcarne_path, { class: "linkmenu" }  %> </li>
+          <li> <%= link_to "Chilli Con Carne", chilliconcarne_path, { class: "linkmenu" }  %> </li>
+          <li> <%= link_to "Cottage Pie", cottage_pie_path, { class: "linkmenu" } %> </li>
+        <%#   <li> <%= link_to "Chicken Chasseur", # %>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</html>

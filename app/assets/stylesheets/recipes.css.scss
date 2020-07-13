@@ -1,0 +1,58 @@
+body {
+        /* font-family:   Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif; */
+        font-size:   13px;
+        margin-top:   0px;
+        margin-left:   0px;
+        margin-bottom:   0px;
+        margin-right:   0px;
+	background-color:#E4DFEC;
+	/* background-image:   url(asset_path('background_1.png')); */ 
+}
+
+.center { 
+    text-align: center;
+}
+
+.lilac {
+       background-color: #EDE7F6;
+}
+
+.ingredients-panel {
+        color:        white;
+        background-color:  #1D1373;
+        padding-left:      5px;
+        margin-top:        10px;
+}
+
+.picture-panel {
+        margin-left:    0px;
+        margin-right:   0px;
+        margin-top:     0px;
+        margin-bottom:  0px;
+        /* width:          50%; */
+        padding-top:    25px;
+        padding-bottom: 22px;
+        padding-left:    0px;
+        padding-right:   0px;
+}
+
+.table-color {
+        background-color: #1D1373;
+        color:            white;
+}
+.table-cellcolor:hover {
+        
+        font-size:        16px;
+        font-weight:      bold;
+        color:            black; 
+        background-color: #D1C4E9 !important;
+}
+
+.instructions-panel {
+        font-size:         14px;
+        color:             #546E7A;
+        background-color:  #C5CAE9;
+        padding-left:      5px;
+        padding-right:     5px;
+        margin-top:        10px;
+}
